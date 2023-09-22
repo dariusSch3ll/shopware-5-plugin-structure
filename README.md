@@ -1,0 +1,1 @@
+A simple structure fo make Plugins for shopware 5 easier to setup.

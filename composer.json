@@ -1,0 +1,24 @@
+{
+  "name": "vendor_name/pluginname",
+  "description": "This is a nice description",
+  "version": "0.0.1",
+  "type": "shopware-plugin",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Darius Scheller",
+      "email": "ds@example.to",
+      "homepage": "https://www.company.com"
+    }
+  ],
+  "require-dev": {
+    "shopware/shopware": "^v5.7.11",
+    "phpunit/phpunit": "^10.3"
+  },
+  "require": {
+    "php": ">=7.4.0"
+  },
+  "extra": {
+    "installer-name": "PluginName"
+  }
+}

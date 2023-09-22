@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.3/engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+        <element type="text" scope="locale">
+            <name>adminEmails</name>
+            <label lang="de">E-Mail</label>
+            <label lang="en">E-Mail</label>
+            <description lang="de">Falls nach einer weiterleitung ein Produkt nicht auffindbar ist, werden folgen E-Mail Adressen benachrichtigt</description>
+            <description lang="en">If a customer gets directed to a PDP that doesn't exist, the following E-Mails adresses get notified</description>
+        </element>
+    </elements>
+</config>
